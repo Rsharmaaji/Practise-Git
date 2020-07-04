@@ -9,7 +9,7 @@ app.use("/api/users",userRouter)
 
 app.use(function (req, res, next) {
     res.header(" aws Access-Control-Allow-Origin", "*"); // update to match the domain you will make the request from
-    res.header("Access-Control-Allow-Headers", "GET,PUT,PATCH,DELETE,POST");
+    res.header(" vivek new Access-Control-Allow-Headers", "GET,PUT,PATCH,DELETE,POST");
     res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
     next();
 });
